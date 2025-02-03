@@ -21,6 +21,6 @@ public class MinhaClasse {
     }
 
     public static String nomeCompleto(String nome, String sobreNome){
-        return nome.concat(" ").concat(sobreNome);
+        return "Resultado do método : " + nome.concat(" ").concat(sobreNome);
     }
 }
