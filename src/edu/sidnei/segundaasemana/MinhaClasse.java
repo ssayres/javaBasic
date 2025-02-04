@@ -1,4 +1,4 @@
-
+package edu.sidnei.segundaasemana;
 
 public class MinhaClasse {
 
@@ -8,7 +8,7 @@ public class MinhaClasse {
         // final String BR = "Brasil"; constante por convenção vem como UPPERCASE
         // jamais iniciar variavel com numero
         // variavel camel case - minhaVariavel
-        // padrao de arquivos e classes- MinhaClasse
+        // padrao de arquivos e classes- edu.sidnei.segundaasemana.MinhaClasse
         // $ é permitido - variavel$um
 
         // Tipo NomeBemDefinido = Atribuição (opcional)

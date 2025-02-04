@@ -1,3 +1,4 @@
+package edu.sidnei.primeirasemana;
 
 public class BoletimEstudantil {
 
