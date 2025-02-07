@@ -1,0 +1,69 @@
+Convenção de diretórios
+
+*Pacotes*
+
+Formatos -
+Estudos(edu)
+Comercial(com)
+Organizacional(org)
+OpenSource(opensource/org)
+Desenvolvimento independente(io)
+
+
+Exemplo ~~
+
+Empresa HyperTech
+
+com.hypertech.nomedoprojeto{
+
+    com.hypertech.nomedoprojeto ~~ Exemplos
+
+    (com.hypertech.nomedoprojeto.app)
+    (com.hypertech.nomedoprojeto.model)
+    (com.hypertech.nomedoprojeto.service)
+    (com.hypertech.nomedoprojeto.util)
+}
+
+#Variáveis sempre no singular a menos que sejam referentes a arrays
+Não alterne entre idiomas na hora de nomear variáveis
+
+#Os métodos deverão ser nomeados como verbos, através de uma "mistura" de letras maiúsculas e minúsculas
+
+somar(int n1, int2){}
+
+abrirConexao(){}
+
+calcularImprimir(){} - ERRADO, DEVERIA SER UM OU OUTRO, NÃO DUAS AÇÕES AO MESMO TEMPO
+
+
+
+#Tipo primitivos de variáveis :
+
+int, 4 bytes
+
+byte, 1 bytes
+
+short, 2 byte
+
+long, 8 bytes
+
+float, 4 bytes
+
+double, 8 bytes
+
+boolean,
+
+char
+
+Declaração de variáveis :
+
+Tipo nomeVariavel <atribuicaoDeValorOpcional>
+
+* quando eu não informo o valor de uma variavel( Ex: int idade;) cada tipo de variável vai atribuir um valor padrão do tipo
+
+* Números tipo long devem terminar com L para que o Java saiba que não se trata de um int e sim um long : long = 129099L
+
+
+podemos guardar um short dentro de uma int mas não ao contrario
+
+A palavra de constante usada é final e escrita em caixa alta : final double VALORIMUTAVEL = 3.14;
