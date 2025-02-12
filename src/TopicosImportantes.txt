@@ -67,3 +67,4 @@ Tipo nomeVariavel <atribuicaoDeValorOpcional>
 podemos guardar um short dentro de uma int mas não ao contrario
 
 A palavra de constante usada é final e escrita em caixa alta : final double VALORIMUTAVEL = 3.14;
+
