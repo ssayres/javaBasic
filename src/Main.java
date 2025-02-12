@@ -19,6 +19,6 @@ public class Main {
 
         variavel = !variavel; // o único jeito de mudar pra false de fato pra além da ultima operação é reatribuindo
 
-        System.out.println(variavel);
+
     }
 }
