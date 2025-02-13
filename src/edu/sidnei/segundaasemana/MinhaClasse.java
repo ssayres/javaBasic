@@ -18,10 +18,28 @@ public class MinhaClasse {
 
         String nomeCompleto = nomeCompleto(nome, sobreNome);
         System.out.println(nomeCompleto);
+
+        //Operador Ternário
+
+        int a = 6;
+        int b = 6;
+
+        //String resultado = "";
+        //if( a == b){
+         //   resultado = "verdadeiro";
+       // }else{
+         //   resultado = "falso";
+       // } tudo isso é a mesma coisa que :
+
+        String resultado = a== b ? "verdadeiro" : "falso"; // a condição SEMPRE deve ser booleana - O Tipo String - refere-se ao formato do resultado esperado, nesse caso "verdadeiro" ou "falso"
+
+        System.out.println(resultado);
     }
 
     public static String nomeCompleto(String nome, String sobreNome){
         return "Resultado do método : " + nome.concat(" ").concat(sobreNome);
     }
+
+
 
 }
