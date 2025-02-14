@@ -50,6 +50,17 @@ public class MinhaClasse {
         String nomedois = new String("gleyson");
 
         System.out.println(nomeum.equals(nomedois));
+
+        // Tabela verdade
+        //&& Operador "E"
+        //|| Operador "OU"
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 || condicao2){
+            System.out.println("Ta verdadeiro");
+        }
     }
 
     public static String nomeCompleto(String nome, String sobreNome){
