@@ -61,6 +61,11 @@ public class MinhaClasse {
         if(condicao1 || condicao2 && (7 >4)){
             System.out.println("Ta verdadeiro");
         }
+
+        MinhaClasse minhaClasse = new MinhaClasse();
+        System.out.println(minhaClasse.somaTotal());
+
+
     }
 
     public static String nomeCompleto(String nome, String sobreNome){
@@ -68,7 +73,38 @@ public class MinhaClasse {
     }
 
 
+    // métodos usam camelCase e devem ser verbo
 
+    public int soma(int soma1, int soma2){
+            int soma3 = soma1 + soma2;
+            return soma3;
+    }
+
+    public int somaTotal() {
+       int soma = soma(200,3);
+
+        return soma;
+    }
+
+
+
+    //public void calcularImprimir() - ERRADO o método deve ter uma única responsabilidade
+
+    // Em Java não tem métodos globais - os métodos sempre devem ser definidos dentro de uma classe
+
+    // QUAL A PROPOSTA PRINCIPAL DO MÉTODO ? QUAL O TIPO DE RETORNO ESPERADO ?
+
+    // VOID NÃO RETORNA NADA
+
+    // QUAIS OS PARAMETROS NECESSARIOS ? O MÉTODO POSSUI RISCO DE APRESENTAR ALGUMA EXCEÇÃO? QUAL A VISIBILIDADE DO MÉTODO?
+
+   // public double somar(int num1, int num2){ - MÉTODO COM O FORMATO QUE DEVE RETORNAR E COM OS PARAMETROS ESPERADOS
+     //   return ... ;
+   // }
+
+    private void metodoPrivado(){ // não fica visivel para outras classes
+
+    }
 
 
 }
