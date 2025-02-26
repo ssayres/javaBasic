@@ -68,3 +68,60 @@ podemos guardar um short dentro de uma int mas não ao contrario
 
 A palavra de constante usada é final e escrita em caixa alta : final double VALORIMUTAVEL = 3.14;
 
+
+
+Diferença de protected para private - private só se usa dentro da mesma classe, protected pode ser dentro da subclasse
+implica o uso de herança
+
+Abstract - classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+
+Extends - Indica a superclasse que a subclasse está estendendo
+
+Final - Impossibilita que uma classe seja estendida
+
+Interface - especifica uma interface
+
+Native - indica que um método está escrito em uma linguagem dependente de plataforma, como o C
+
+New - Instancia um novo objeto, chamado seu construtor
+
+Static - Faz um método ou váriavel pertencer à classe ao invés de as instancias
+
+Strictfp: Usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto
+flutuante
+
+synchronized: método acessado por uma thread de uma vez
+
+transient: impede que a informação seja salva, sera sempre reinicializada
+
+volatile: indica que a variavel pode ser alterada no uso de threads
+
+
+Controle de fluxo:
+
+Break: Quebra o loop de código:
+
+Case: Executa um bloco de código dependendo da condição switch
+
+Continue: pula um bloco específico de código
+
+
+
+Arquivo - Antes da Classe - package,import,static
+
+Classe - public ou protected ou private + final ou abstract + extends ou implements
+
+Método - public ou protected ou private + static ou final ou abstract + void e return
+
+Atributo - public ou protected ou private + static ou final + tipo primitivo
+
+
+package + import
+
+throws - dispara uma exceção
+
+throw - geração de uma exceção
+
+
+
+
