@@ -7,7 +7,6 @@ public class DebugAula {
 
         System.out.println("iniciou o programa main");
         a();
-        Thread.dumpStack();
         System.out.println("Finalizou o programa main");
 
 
