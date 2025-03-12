@@ -10,7 +10,7 @@ public class CalculaMedia {
 
         double media = calculaMediaTurma(alunos, scan);
 
-        System.out.printf("Media da turma %f ",media);
+        System.out.printf("Media da turma %.1f ",media);
 
 
     }
